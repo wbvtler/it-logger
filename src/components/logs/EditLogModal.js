@@ -20,7 +20,7 @@ const EditLogModal = () => {
   };
 
   return (
-    <div id="edit-log-modal" className="modal" style={modalStyle}>
+    <div id="edit-log-modal" className="modal">
       <div className="modal-content">
         <h4>Enter System Log</h4>
         <div className="row">
@@ -41,7 +41,6 @@ const EditLogModal = () => {
             <select
               name="tech"
               value={tech}
-              className="browser-default"
               onChange={(e) => setTech(e.target.value)}
             >
               <option value="" disabled>
@@ -81,11 +80,6 @@ const EditLogModal = () => {
       </div>
     </div>
   );
-};
-
-const modalStyle = {
-  width: '75%',
-  height: '75%'
 };
 
 export default EditLogModal;
