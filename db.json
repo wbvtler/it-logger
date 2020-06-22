@@ -1,5 +1,27 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "message": "Fixed 002 hard drive",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-06-16T03:50:13.206Z",
+      "id": 1
+    },
+    {
+      "message": "Fixed 005 hard drive",
+      "attention": "",
+      "tech": "Sam Smith",
+      "date": "2020-06-16T03:50:34.096Z",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "message": "Fixed networking on server 007",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2020-06-16T03:52:58.712Z"
+    }
+  ],
   "techs": [
     {
       "id": 1,
